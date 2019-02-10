@@ -8,7 +8,7 @@ object Utilities {
 
   val relatiPathToProjectWindows = "C:/Users/alber/OneDrive/Escritorio/"
   val relativePathToProjectVM = "mnt/hgfs/"
-  val pathToFolder = "file:///"+ relatiPathToProjectWindows + "PracticaDataProcesing2/datasets/"
+  val pathToFolder = "file:///"+ relativePathToProjectVM + "PracticaDataProcesing2/datasets/"
   val pathInitialCSV = pathToFolder + "RealEstate.csv"
   val pathToSaveTransformML = pathToFolder + "RealEstate_ML_2"
   val pathToSaveAveragePrice = pathToFolder + "RealEstate_2"
