@@ -3,7 +3,6 @@ package bdproc.practica_alberto_monitorizacion
 import bdproc.common.EmailUtilities
 import org.apache.spark.sql.{ForeachWriter, _}
 import org.apache.spark.sql.functions._
-import bdproc.common.EmailUtilities._
 import bdproc.common.Utilities._
 
 object SparkMonitorizaciónPrecios {
@@ -27,34 +26,36 @@ object SparkMonitorizaciónPrecios {
 
   def main(args: Array[String]) {
 
+    //obtenemos el limitValue de los parameters de la configuración.
     val limitValue = args(0).toFloat
     //session spark
     val spark = SparkSession
       .builder
       .appName("Precios medio Monitor")
       .master("local[*]")
-      .config("spark.sql.streaming.checkpointLocation", "file:///C:/Users/alber/OneDrive/Escritorio/KeepCodingGitlab/MóduloDataProcessing/practica/datasets/checkpoints")
+      .config("spark.sql.streaming.checkpointLocation", pathToCheckPoints)
       .getOrCreate()
 
     setupLogging()
 
     spark.sql("set spark.sql.streaming.schemaInference=true")
     //set up monitorización directorio RealState
-    val jsonLoaded = spark.readStream.json("file:///C:/Users/alber/OneDrive/Escritorio/KeepCodingGitlab/MóduloDataProcessing/practica/datasets/RealEstate_2")
+    val jsonLoaded = spark.readStream.json(pathToSaveAveragePrice)
 
     // Must import spark.implicits for conversion to DataSet to work!
     import spark.implicits._
 
-    // Group by status code, with a one-hour window.
-    //todo: agrupamos por Location en una ventana de una hora
+    //agrupamos por Location en una ventana de una hora
     val windowedData = jsonLoaded.groupBy($"Location", $"precioMedio", window(current_timestamp(), "1 hour"))
       .count().orderBy($"precioMedio".desc)
 
+    //filtrado de aquellos inmuebles que superen el límite de precio.
     val outlierPrize = windowedData.filter(col("precioMedio" ) >= limitValue).as[InmueblePrecioMedio]
-
 
     var body = ""
 
+    //para poder ejecutar la función de email, primero hemos de juntar las particiones, y después ejecutar un foreach asíncrono para cuando
+    //los datos estén presentes.
     outlierPrize.coalesce(1).writeStream.outputMode("complete").foreach(new ForeachWriter[InmueblePrecioMedio] {
 
       override def open(partitionId: Long, epochId: Long): Boolean =
@@ -83,12 +84,12 @@ object SparkMonitorizaciónPrecios {
 
 
 
-    //todo: iniciar procedimient (query) y mostrar resultados por consola de modo 'complete'
+    //iniciar procedimient (query) y mostrar resultados por consola de modo 'complete'
     val query = windowedData.writeStream.outputMode("complete")
       .format("console").start
 
 
-    //todo: permitir finalización query
+   //permitir finalización query
     query.awaitTermination()
 
     spark.stop()

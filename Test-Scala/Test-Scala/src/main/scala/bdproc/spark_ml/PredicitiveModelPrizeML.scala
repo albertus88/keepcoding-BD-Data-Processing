@@ -6,6 +6,7 @@ import org.apache.spark.mllib.regression.{LabeledPoint, StreamingLinearRegressio
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{Row, SparkSession}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
+import bdproc.common.Utilities._
 
 import scala.collection.mutable
 
@@ -29,7 +30,7 @@ object PredicitiveModelPrizeML {
       .option("inferSchema","true")
       .option("header",true)
       .option("delimiter",",")
-      .load("file:///C:/Users/alber/OneDrive/Escritorio/KeepCodingGitlab/MóduloDataProcessing/practica/datasets/RealEstate_ML_2/RealStateTransform.csv")
+      .load(pathToRealStateFileML)
 
     val rdd = rawDF.rdd.zipWithUniqueId()
 
@@ -37,11 +38,7 @@ object PredicitiveModelPrizeML {
     val lookupQuality = rdd.map{ case (r: Row, id: Long)=> (id, r.getDouble(2))}
       .collect().toMap
 
-    val countryIndexer = new StringIndexer()
-      .setInputCol("Location")
-      .setOutputCol("LocationIndex")
-
-
+    //aplicamos una transformación de convertir las Location en id's para que el algoritmo pueda ser ejecutado
     val dictionary = new mutable.HashMap[String,Integer]()
     var incrementalCode = 1000;
     //crear un conjunto de features
@@ -75,9 +72,7 @@ object PredicitiveModelPrizeML {
     val trainingStream = ssc.queueStream(trainQ)
     val testStream = ssc.queueStream(testQ)
 
-    //todo: rellenar colas
-
-
+    //rellenamos las colas
     val model = new StreamingLinearRegressionWithSGD()
       .setInitialWeights(Vectors.zeros(2)) //2 es num. features
       .setNumIterations(250)

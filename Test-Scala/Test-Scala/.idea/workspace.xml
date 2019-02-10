@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95dc1016-e6b5-40fb-8e6e-18053eeb4cc0" name="Default Changelist" comment="" />
+    <list default="true" id="95dc1016-e6b5-40fb-8e6e-18053eeb4cc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Test-Scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Test-Scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/RealEstate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/RealEstate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$Inmueble$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$Inmueble$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$Inmueble.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$Inmueble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$InmuebleTransformado$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$InmuebleTransformado$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$InmuebleTransformado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities$InmuebleTransformado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/common/Utilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$$typecreator5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$$typecreator5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto/SparkProductoInmobiliario$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$InmueblePrecioMedio$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$InmueblePrecioMedio$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$InmueblePrecioMedio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios$InmueblePrecioMedio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/spark_ml/PredicitiveModelPrizeML$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/bdproc/spark_ml/PredicitiveModelPrizeML$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala$sources/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala_2.12/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test-scala_2.12/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test-scala$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/RealEstate.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../datasets/RealEstate.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/RealEstate_2/.part-00000-6fcc6eef-a168-4cc8-892d-7dda952e6019-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/RealEstate_2/part-00000-6fcc6eef-a168-4cc8-892d-7dda952e6019-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/RealEstate_ML_2/.part-00000-9edc7c69-7361-45e8-8976-5da8d75b465d-c000.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../datasets/RealEstate_ML_2/RealStateTransform.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../datasets/RealEstate_ML_2/RealStateTransform.csv" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -33,8 +86,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1044">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#33#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -51,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="129" selection-start-line="14" selection-start-column="129" selection-end-line="14" selection-end-column="129" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#48#83#0" expanded="true" />
               </folding>
@@ -66,8 +122,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -75,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="170">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -115,10 +183,11 @@
       <find>setProperty</find>
       <find>d</find>
       <find>assembler</find>
+      <find>countryIndexer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,19 +207,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredictiveModelPrizes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/RegressionML.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
+    <option name="x" value="106" />
     <option name="y" value="27" />
     <option name="width" value="1783" />
-    <option name="height" value="897" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -158,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -210,43 +278,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="bdproc" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test-Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test-Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bdproc" type="462c0819:PsiDirectoryNode" />
-              <item name="practica_alberto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test-Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test-Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bdproc" type="462c0819:PsiDirectoryNode" />
-              <item name="practica_alberto_monitorizacion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test-Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test-Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="bdproc" type="462c0819:PsiDirectoryNode" />
               <item name="spark_ml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549798473602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549800697877" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/mail.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -277,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkProductoInmobiliario">
+  <component name="RunManager" selected="Application.PredicitiveModelPrizeML">
     <configuration name="PredicitiveModelPrizeML" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="bdproc.spark_ml.PredicitiveModelPrizeML" />
       <module name="Test-Scala" />
@@ -361,11 +403,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SparkProductoInmobiliario" />
         <item itemvalue="Application.PredicitiveModelPrizeML" />
+        <item itemvalue="Application.SparkMonitorizaciónPrecios" />
+        <item itemvalue="Application.SparkProductoInmobiliario" />
         <item itemvalue="Application.RegressionML" />
         <item itemvalue="Application.PredictiveModelPrizes" />
-        <item itemvalue="Application.SparkMonitorizaciónPrecios" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +424,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="test-scala [file:/mnt/hgfs/PracticaDataProcesing/Test-Scala/Test-Scala/]" />
+                <option name="name" value="test-scala [file:/C:/Users/alber/OneDrive/Escritorio/PracticaDataProcesing2/Test-Scala/Test-Scala/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -427,10 +469,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1783" height="897" extended-state="0" />
+    <frame x="106" y="27" width="1783" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.30051813" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.13639002" />
       <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.24935733" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -439,8 +481,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011136" side_tool="true" weight="0.24935733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700084" visible="true" weight="0.2591146" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997722" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700084" weight="0.054448873" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32801822" />
@@ -449,7 +491,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49871466" weight="0.32801822" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029991" side_tool="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49871466" weight="0.30555555" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3828125" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3811421" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,23 +520,8 @@
     <entry file="file://$PROJECT_DIR$/target/.history">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_graphx/GraphSpark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-          <folding>
-            <element signature="e#29#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_structured_streaming/KafkaInput.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_graphx/GraphSpark.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_structured_streaming/KafkaInput.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/SparkApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -565,84 +592,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/RegressionML.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/RegressionML.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_streaming/kafka/LogMonitor.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredictiveModelPrizes.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#25#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-          <folding>
-            <element signature="e#25#73#0" expanded="true" />
+            <element signature="e#24#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_streaming/kafka/LogMonitor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredictiveModelPrizes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="48" selection-end-column="36" />
-          <folding>
-            <element signature="e#25#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#23#52#0" expanded="true" />
+            <element signature="e#48#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1044">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#33#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="129" selection-start-line="14" selection-start-column="129" selection-end-line="14" selection-end-column="129" />
+        <state relative-caret-position="187">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
-            <element signature="e#48#83#0" expanded="true" />
+            <element signature="e#23#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -687,7 +690,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

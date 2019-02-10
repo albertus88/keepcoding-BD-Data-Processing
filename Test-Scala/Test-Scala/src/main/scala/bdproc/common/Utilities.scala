@@ -6,9 +6,14 @@ import java.util.regex.Matcher
 
 object Utilities {
 
-  val pathInitialCSV = "file:///mnt/hgfs/PracticaDataProcesing/datasets/RealEstate.csv"
-  val pathToSaveTransformML = "file:///mnt/hgfs/PracticaDataProcesing/datasets/RealEstate_ML_2"
-  val pathToSaveAveragePrice = "file:///mnt/hgfs/PracticaDataProcesing/datasets/RealEstate_2"
+  val relatiPathToProjectWindows = "C:/Users/alber/OneDrive/Escritorio/"
+  val relativePathToProjectVM = "mnt/hgfs/"
+  val pathToFolder = "file:///"+ relatiPathToProjectWindows + "PracticaDataProcesing2/datasets/"
+  val pathInitialCSV = pathToFolder + "RealEstate.csv"
+  val pathToSaveTransformML = pathToFolder + "RealEstate_ML_2"
+  val pathToSaveAveragePrice = pathToFolder + "RealEstate_2"
+  val pathToCheckPoints = pathToFolder + "checkpoints"
+  val pathToRealStateFileML = pathToSaveTransformML + "/RealStateTransform.csv"
 
   case class Inmueble(MLS: String, Location: String, Price : Float, Bedrooms : Int, Bathrooms: Int, Size: Int, Price_SQ_FT: Float, Status: String)
 

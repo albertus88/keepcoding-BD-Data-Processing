@@ -61,16 +61,19 @@ object SparkProductoInmobiliario
     //Aplicamos una transformacion para obtener los datos en euros y en metros cuadrados y lo guardaremos para el posterior análisis de machine learning.
     val inmuebleTransformadoFinal = inmueblesDS.map(TransformarResultado)
 
-    //sentencia directa
+
 
     inmuebleTransformadoFinal.createOrReplaceTempView("inmuebles")
 
+    //obtenemos los datos de la localización, del size en metro y del precio en euros para el futuro análisis de machine learning.
     val inmueblesTransformML = spark.sql(
       """ SELECT Location, Size_M, Price_EU
         FROM inmuebles
       """)
 
     inmueblesTransformML.persist().coalesce(1).write.mode(SaveMode.Overwrite).option("header","true").csv(pathToSaveTransformML)
+
+    //agrupamos en 1 partición, y guardamos la información de la localización y la media del precio por metro cuadrado y lo ordenamos de mayor a menor.
 
     val inmueblesPrecioMedio = spark.sql(
       """ SELECT Location, AVG(Price_EU_SQ_M) as precioMedio
@@ -80,9 +83,9 @@ object SparkProductoInmobiliario
 
       """)
 
-    //Guardamos el fichero en el directorio real-state
-
     inmueblesPrecioMedio.show
+
+    //Guardamos el fichero en el directorio real-state
 
     inmueblesPrecioMedio.persist().coalesce(1).write.mode(SaveMode.Overwrite).json(pathToSaveAveragePrice)
   }
