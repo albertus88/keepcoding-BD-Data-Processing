@@ -9,8 +9,6 @@ object SparkMonitorizaciónPrecios {
 
   case class InmueblePrecioMedio(Location: String, precioMedio : Double)
 
-  private val _enabledEmail = false
-
   //método para chequear si se supera el límite, en el caso de ser así se concatena el mensaje al cuerpo para el posterior envio.
   def SendEmail( f : InmueblePrecioMedio, limitValue : Double, body : String ) : String = {
 
@@ -72,10 +70,7 @@ object SparkMonitorizaciónPrecios {
       {
         if(body.length() > 0)
         {
-          if(_enabledEmail) {
-            EmailUtilities.SendEmail(body)
-          }
-
+          EmailUtilities.SendEmail(body)
           println("Report outliers prizes")
           println(body)
         }

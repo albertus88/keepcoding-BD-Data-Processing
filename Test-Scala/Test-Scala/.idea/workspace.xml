@@ -153,23 +153,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
               <folding>
-                <element signature="e#33#69#0" expanded="true" />
+                <element signature="e#33#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="79" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -180,8 +180,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="340">
+              <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding>
                 <element signature="e#48#83#0" expanded="true" />
               </folding>
@@ -192,11 +192,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#24#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -204,20 +201,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#25#73#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -233,12 +221,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>as[</find>
-      <find>spark</find>
-      <find>groupByKey</find>
-      <find>Option</find>
-      <find>agg</find>
-      <find>save</find>
       <find>LogMonitor</find>
       <find>LogEntry</find>
       <find>structuredData</find>
@@ -249,7 +231,6 @@
       <find>Column</find>
       <find>jsonLoaded</find>
       <find>send</find>
-      <find>TransformarResultado</find>
       <find>Location</find>
       <find>inmuebleTransformadoFinal</find>
       <find>current</find>
@@ -257,6 +238,19 @@
       <find>d</find>
       <find>assembler</find>
       <find>countryIndexer</find>
+      <find>round100up</find>
+      <find>immueble</find>
+      <find>label</find>
+      <find>als</find>
+      <find>spark</find>
+      <find>prediction</find>
+      <find>incrementalCode</find>
+      <find>TransformarResultado</find>
+      <find>lookupQuality</find>
+      <find>windowedData</find>
+      <find>testGroups</find>
+      <find>trainQ</find>
+      <find>result</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,13 +271,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_graphx/GraphSpark.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_structured_streaming/KafkaInput.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_streaming/kafka/LogMonitor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredictiveModelPrizes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/RegressionML.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala" />
       </list>
     </option>
@@ -291,8 +285,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="90" />
     <option name="y" value="27" />
-    <option name="width" value="1783" />
-    <option name="height" value="877" />
+    <option name="width" value="1803" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -361,7 +355,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549804902161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550393426340" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jars/mail.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -392,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkProductoInmobiliario">
+  <component name="RunManager" selected="Application.PredicitiveModelPrizeML">
     <configuration name="PredicitiveModelPrizeML" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="bdproc.spark_ml.PredicitiveModelPrizeML" />
       <module name="Test-Scala" />
@@ -476,9 +470,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SparkProductoInmobiliario" />
         <item itemvalue="Application.PredicitiveModelPrizeML" />
         <item itemvalue="Application.SparkMonitorizaciónPrecios" />
+        <item itemvalue="Application.SparkProductoInmobiliario" />
         <item itemvalue="Application.RegressionML" />
         <item itemvalue="Application.PredictiveModelPrizes" />
       </list>
@@ -497,7 +491,7 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="test-scala [file:/mnt/hgfs/PracticaDataProcesing2/Test-Scala/Test-Scala/]" />
+                <option name="name" value="test-scala [file:/C:/Users/alber/OneDrive/Escritorio/PracticaDataProcesing2/Test-Scala/Test-Scala/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -511,7 +505,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="959514761" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3431673893" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
       </map>
     </option>
@@ -542,9 +536,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="27" width="1783" height="877" extended-state="0" />
+    <frame x="90" y="27" width="1803" height="1003" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.13816926" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988864" visible="true" weight="0.23637407" />
       <window_info id="Structure" order="1" sideWeight="0.5011136" side_tool="true" weight="0.24935733" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,8 +548,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011136" side_tool="true" weight="0.24935733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700084" weight="0.78074867" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700084" weight="0.16091955" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39885056" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32801822" />
@@ -563,7 +558,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49871466" weight="0.32801822" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5029991" side_tool="true" weight="0.3287037" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49871466" weight="0.30555555" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.38101605" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2735632" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -667,59 +662,56 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/RegressionML.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_streaming/kafka/LogMonitor.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredictiveModelPrizes.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#48#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/spark_ml/PredicitiveModelPrizeML.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#25#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto_monitorizacion/SparkMonitorizaciónPrecios.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        <state relative-caret-position="340">
+          <caret line="72" column="40" lean-forward="true" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/EmailUtilities.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#24#51#0" expanded="true" />
+            <element signature="e#48#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/practica_alberto/SparkProductoInmobiliario.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
           <folding>
-            <element signature="e#33#69#0" expanded="true" />
+            <element signature="e#33#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bdproc/common/Utilities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="e#23#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -765,7 +757,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_201</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -778,6 +770,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>Test-Scala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_201</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

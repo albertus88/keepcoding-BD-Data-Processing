@@ -1,18 +1,18 @@
 package bdproc.common
 
 
-import java.util.Properties
+/*import java.util.Properties
 import javax.mail.Message
 import javax.mail.MessagingException
 import javax.mail.Session
 import javax.mail.Transport
 import javax.mail.internet.InternetAddress
-import javax.mail.internet.MimeMessage
+import javax.mail.internet.MimeMessage*/
 
 
 object EmailUtilities {
   def SendEmail(body: String) = {
-    // Recipient's email ID needs to be mentioned.
+   /* // Recipient's email ID needs to be mentioned.
     val to = "abc82@gmail.com";
 
     // Sender's email ID needs to be mentioned
@@ -49,6 +49,6 @@ object EmailUtilities {
       // Send message
       Transport.send(message);
       System.out.println("Sent message successfully....");
-    }
+    }*/
   }
 }

@@ -4,7 +4,7 @@
 		module="test-scala_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20190210141948"
+		publication="20190216093530"
 	>
 		<description>
 		Test-Scala
@@ -37,6 +37,7 @@
 		<dependency org="org.apache.spark" name="spark-streaming_2.12" rev="2.4.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-graphx_2.12" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="net.liftweb" name="lift-json_2.12" rev="3.3.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 	</dependencies>
